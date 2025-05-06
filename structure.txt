@@ -1,0 +1,23 @@
+/public_html/project-root/
+│
+├── index.php                            ← Placeholder for homepage (pending UI)
+├── item_view.php                        ← (planned detail view)
+│
+├── .htaccess                            ← Protects sensitive files
+│
+├── /admin/
+│   ├── create_item.php                  ← Accepts POST input to create new item
+│   └── create_item_form.php             ← Simple form for testing admin item creation
+│
+├── /api/
+│   ├── get_items.php                    ← Returns all items as JSON
+│   ├── get_item.php                     ← Returns a single item by ID
+│   └── update_item_qty.php              ← Adjusts item quantity (purchase or restock)
+│
+├── /includes/
+│   └── db.php                           ← PDO connection config
+│
+├── /assets/                             ← (optional, for styling/scripts/images)
+│   ├── css/
+│   ├── js/
+│   └── images/
