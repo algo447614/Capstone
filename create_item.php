@@ -1,3 +1,17 @@
+/*🔹 Functional Role:
+
+create_item.php exists to:
+
+    Accept a structured request (POST)
+
+    Validate it
+
+    Convert it into a database command
+
+    Commit that new data into your system
+
+It's like the "Add New" button on a backend admin dashboard, but through code. */
+
 <?php
 require_once __DIR__ . '/../includes/db.php';
 
